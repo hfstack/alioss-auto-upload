@@ -2,9 +2,10 @@
 
 ## Usage
 
-1.package.json
-``` json
-autoupload: 'git+ssh://git@github.com:hfstack/alioss-auto-upload.git#1.0.1'
+1.安装
+```
+npm i alioss-auto-upload
+
 ```
 
 2.

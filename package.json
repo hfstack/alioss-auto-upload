@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git@github.com:hfstack/alioss-auto-upload.git"
   },
-  "author": "huanglongfei",
+  "author": "zhonggongsm@126.com",
   "license": "ISC",
   "dependencies": {
     "ali-oss": "^6.0.2",
