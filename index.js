@@ -14,9 +14,10 @@ class AliOssAutoUpload {
     const defaultOptions = {
       dir: undefined,
       originDir: undefined,
-      bucket: 'duiba',
+      bucket: '',
       accessKeyId: '',
       accessKeySecret: '',
+      region: 'oss-cn-hangzhou',
       internal: false // access OSS with aliyun internal network or not, default is false. If your servers are running on aliyun too, you can set true to save lot of money.
     }
     this.options = Object.assign({}, defaultOptions, props);
@@ -28,7 +29,7 @@ class AliOssAutoUpload {
   }
   init() {
     this.client = new OSS({
-      region: 'oss-cn-hangzhou',
+      region: this.options.region,
       internal: this.options.internal,
       accessKeyId: this.options.accessKeyId,
       accessKeySecret: this.options.accessKeySecret,

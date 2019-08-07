@@ -18,7 +18,10 @@ const AutoUpload = require('autoupload');
     dir: path.join(__dirname, '../dist/'),
     originDir: '/media-external/dist/',
     accessKeyId: '',
-    accessKeySecret: ''
+    accessKeySecret: '',
+    bucket: '',
+    internal: 'false', // access OSS with aliyun internal network or not, default is false. If your servers are running on aliyun too, you can set true to save lot of money.
+    region: '' // oss区域 默认 oss-cn-hangzhou
   })
 
   await autoupload.start()
