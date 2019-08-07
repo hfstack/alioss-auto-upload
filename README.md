@@ -4,7 +4,7 @@
 
 1.package.json
 ``` json
-autoupload: 'git@github.com:hfstack/alioss-auto-upload.git#1.0.0'
+autoupload: 'git+ssh://git@github.com:hfstack/alioss-auto-upload.git#1.0.1'
 ```
 
 2.
