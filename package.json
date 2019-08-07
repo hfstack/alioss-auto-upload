@@ -1,0 +1,20 @@
+{
+  "name": "alioss-auto-upload",
+  "version": "1.0.0",
+  "description": "阿里云oss自动上传工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hfstack/alioss-auto-upload.git"
+  },
+  "author": "huanglongfei",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.0.2",
+    "chalk": "^2.3.0",
+    "progress": "^2.0.3"
+  }
+}
