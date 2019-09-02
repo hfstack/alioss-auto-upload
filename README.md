@@ -2,13 +2,13 @@
 
 ## Usage
 
-1.安装
+1.安装 
 ```
 npm i alioss-auto-upload
 
 ```
 
-2.
+
 ``` javascript
 const path = require('path');
 
