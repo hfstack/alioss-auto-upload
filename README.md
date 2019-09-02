@@ -1,13 +1,11 @@
 # 阿里云oss自动上传工具
 
-## Usage
-
 1.安装 
 ```
 npm i alioss-auto-upload
 
 ```
-
+2.使用
 
 ``` javascript
 const path = require('path');
